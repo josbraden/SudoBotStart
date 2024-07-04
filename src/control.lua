@@ -7,23 +7,29 @@ script.on_event(defines.events.on_player_created, function(event)
 
 		items = {
 			{"power-armor-mk2", 1},
-			{"construction-robot", 50},
+			{"construction-robot", 100},
 		}
 		armor = {
 			{"fusion-reactor-equipment"},
 			{"fusion-reactor-equipment"},
-			{"personal-roboport-mk2-equipment"},
-			{"personal-roboport-mk2-equipment"},
+			{"energy-shield-mk2-equipment"},
+			{"energy-shield-mk2-equipment"},
 			{"fusion-reactor-equipment"},
-			{"fusion-reactor-equipment"},
 			{"personal-roboport-mk2-equipment"},
 			{"personal-roboport-mk2-equipment"},
+			{"personal-laser-defense-equipment"},
+			{"personal-roboport-mk2-equipment"},
+			{"personal-roboport-mk2-equipment"},
+			{"personal-laser-defense-equipment"},
+			{"night-vision-equipment"},
+			{"belt-immunity-equipment"},
 			{"battery-mk2-equipment"},
 			{"battery-mk2-equipment"},
-			{"energy-shield-mk2-equipment"},
-			{"energy-shield-mk2-equipment"},
-			{"energy-shield-mk2-equipment"},
-			{"energy-shield-mk2-equipment"},
+			{"battery-mk2-equipment"},
+			{"battery-mk2-equipment"},
+			{"battery-mk2-equipment"},
+			{"battery-mk2-equipment"},
+			{"battery-mk2-equipment"},
 		}
 
 		for i, v in pairs(items) do
@@ -45,23 +51,29 @@ script.on_event(defines.events.on_cutscene_cancelled, function(event)
 
 	items = {
 		{"power-armor-mk2", 1},
-		{"construction-robot", 50},
+		{"construction-robot", 100},
 	}
 	armor = {
 		{"fusion-reactor-equipment"},
 		{"fusion-reactor-equipment"},
-		{"personal-roboport-mk2-equipment"},
-		{"personal-roboport-mk2-equipment"},
+		{"energy-shield-mk2-equipment"},
+		{"energy-shield-mk2-equipment"},
 		{"fusion-reactor-equipment"},
-		{"fusion-reactor-equipment"},
 		{"personal-roboport-mk2-equipment"},
 		{"personal-roboport-mk2-equipment"},
+		{"personal-laser-defense-equipment"},
+		{"personal-roboport-mk2-equipment"},
+		{"personal-roboport-mk2-equipment"},
+		{"personal-laser-defense-equipment"},
+		{"night-vision-equipment"},
+		{"belt-immunity-equipment"},
 		{"battery-mk2-equipment"},
 		{"battery-mk2-equipment"},
-		{"energy-shield-mk2-equipment"},
-		{"energy-shield-mk2-equipment"},
-		{"energy-shield-mk2-equipment"},
-		{"energy-shield-mk2-equipment"},
+		{"battery-mk2-equipment"},
+		{"battery-mk2-equipment"},
+		{"battery-mk2-equipment"},
+		{"battery-mk2-equipment"},
+		{"battery-mk2-equipment"},
 	}
 
 	for i, v in pairs(items) do
