@@ -8,7 +8,6 @@ script.on_event(defines.events.on_player_created, function(event)
 		items = {
 			{"power-armor-mk2", 1},
 			{"construction-robot", 100},
-			{"solar-panel-equipment", 1},
 		}
 		armor = {
 			{"fusion-reactor-equipment"},
@@ -22,15 +21,16 @@ script.on_event(defines.events.on_player_created, function(event)
 			{"personal-roboport-mk2-equipment"},
 			{"personal-roboport-mk2-equipment"},
 			{"personal-laser-defense-equipment"},
+			{"battery-mk2-equipment"},
+			{"battery-mk2-equipment"},
+			{"battery-mk2-equipment"},
+			{"battery-mk2-equipment"},
+			{"battery-mk2-equipment"},
+			{"battery-mk2-equipment"},
+			{"battery-mk2-equipment"},
 			{"night-vision-equipment"},
 			{"belt-immunity-equipment"},
-			{"battery-mk2-equipment"},
-			{"battery-mk2-equipment"},
-			{"battery-mk2-equipment"},
-			{"battery-mk2-equipment"},
-			{"battery-mk2-equipment"},
-			{"battery-mk2-equipment"},
-			{"battery-mk2-equipment"},
+			{"solar-panel-equipment"},
 		}
 
 		for i, v in pairs(items) do
@@ -66,15 +66,16 @@ script.on_event(defines.events.on_cutscene_cancelled, function(event)
 		{"personal-roboport-mk2-equipment"},
 		{"personal-roboport-mk2-equipment"},
 		{"personal-laser-defense-equipment"},
+		{"battery-mk2-equipment"},
+		{"battery-mk2-equipment"},
+		{"battery-mk2-equipment"},
+		{"battery-mk2-equipment"},
+		{"battery-mk2-equipment"},
+		{"battery-mk2-equipment"},
+		{"battery-mk2-equipment"},
 		{"night-vision-equipment"},
 		{"belt-immunity-equipment"},
-		{"battery-mk2-equipment"},
-		{"battery-mk2-equipment"},
-		{"battery-mk2-equipment"},
-		{"battery-mk2-equipment"},
-		{"battery-mk2-equipment"},
-		{"battery-mk2-equipment"},
-		{"battery-mk2-equipment"},
+		{"solar-panel-equipment"},
 	}
 
 	for i, v in pairs(items) do
